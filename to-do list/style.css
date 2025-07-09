@@ -82,3 +82,52 @@ li{
   padding: 3px;
 }
 
+h5{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a1606;
+}
+
+/*
+li{
+  opacity: 0;
+  animation: new-item-animation 0.3s linear forwards;
+}
+@keyframes new-item-animation {
+  from{
+    opacity: 0;
+    transform: translateY(-400px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+li.deleted-item{
+  animation: deleted-item-animation 1s cubic-bezier(0.55,-0.04,0.91,0.94) forwards;
+  transform-origin: 0% 100%;
+}
+@keyframes deleted-item-animation {
+  0%{
+    opacity: 1;
+    transform: rotate(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(600px) rotate(90deg);
+  }
+}
+
+.toggle{
+  animation: hideMe 5s forwards;
+}
+  @keyframes hideMe {
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+*/
