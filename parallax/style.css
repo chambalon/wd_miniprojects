@@ -7,7 +7,89 @@
 
 body{
   min-height: 100vh;
-  background-image:url(bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgb(180, 183, 221);
+  overflow-x: hidden;
 }
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+}
+
+header h2{
+  font-size: 2.3rem;
+  color: rgb(145, 163, 174);
+  pointer-events: none;
+  margin-right: 400px;
+}
+
+header nav a{
+  text-decoration: none;
+  padding: 5px 15px;
+  margin: 0 10px;
+  color: #fff;
+  font-weight: 600;
+  transition: .5s;
+}
+
+header nav a.active,header nav a:hover{
+  background-color: rgb(67, 88, 101);
+  color: #d5d2ed;
+  border-radius: 50px;
+}
+
+header nav:hover > a:not(:hover){
+  background: none;
+  color: rgb(149, 171, 185);
+}
+
+.parallax{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+#text{
+  position:absolute;
+  font-size: 4rem;
+  color: #830a0a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.parallax img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.section{
+  position: relative;
+  padding: 100px;
+  
+}
+
+.section h2{
+  font-size: 2.7rem;
+  color: #3d376b;
+  margin-bottom: 10px;
+}
+
+.section p{
+  color: #292352;
+  font-weight: 300;
+}
+
+
+
